@@ -1,13 +1,17 @@
 <div class="webcam">
-    <span>Partia Constantinescu</span>
+    <span>Plecare Gondola</span>
     <div>
-        <img src="http://82.79.247.31:888/cgi-bin/faststream.jpg?stream=full&fps=12"/>
+        <a href="#" title="Click pentru actualizare" class="click-refresh">
+            <img src="/scripts/image-transalpina.php?https://www.trans-alpina.ro/camera/plecare.jpg"/>
+        </a>
     </div>
 </div>
 
 <div class="webcam">
-    <span>Sosire Telescaun</span>
+    <span>Plecare Teleski</span>
     <div>
-        <img src="http://82.79.247.31:4000/cgi-bin/faststream.jpg?stream=full&fps=12"/>
+        <a href="#" title="Click pentru actualizare" class="click-refresh">
+            <img src="/scripts/image-transalpina.php?url=https://www.trans-alpina.ro/camera/teleschi.jpg"/>
+        </a>
     </div>
 </div>

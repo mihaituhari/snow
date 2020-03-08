@@ -1,13 +1,13 @@
 <div class="webcam">
-    <span>Plecare Gondola</span>
+    <span>Partia Constantinescu</span>
     <div class="box">
-        <iframe src="https://www.trans-alpina.ro/camera/plecare.jpg?counter=1583695628169" frameborder="0"></iframe>
+        <iframe src="http://82.79.247.31:888/cgi-bin/faststream.jpg?stream=full&fps=12" frameborder="0"></iframe>
     </div>
 </div>
 
 <div class="webcam">
-    <span>Plecare Teleski</span>
+    <span>Sosire Telescaun</span>
     <div class="box">
-        <iframe src="https://www.trans-alpina.ro/camera/teleschi.jpg?counter=1583695656355" frameborder="0"></iframe>
+        <iframe src="http://82.79.247.31:4000/cgi-bin/faststream.jpg?stream=full&fps=12" frameborder="0"></iframe>
     </div>
 </div>
