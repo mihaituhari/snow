@@ -18,11 +18,12 @@ $resorts = [
         'meteoblue_id' => 'poiana-brasov_românia_6693026',
         'webcams' => 'poiana-brasov',
     ],
-    [
-        'name' => 'Straja',
-        'meteoblue_id' => 'straja_romania_666019',
-        'webcams' => 'straja',
-    ],
+    // Disabled because the webcams are HTTP and cannot be loaded
+//    [
+//        'name' => 'Straja',
+//        'meteoblue_id' => 'straja_romania_666019',
+//        'webcams' => 'straja',
+//    ],
     [
         'name' => 'Transalpina',
         'meteoblue_id' => 'transalpina_romania_8236900',
