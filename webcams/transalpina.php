@@ -7,7 +7,7 @@
 
 <div class="webcam">
     <span>Sosire Telescaun</span>
-    <div class="box">
+    <div>
         <iframe src="http://82.79.247.31:4000/cgi-bin/faststream.jpg?stream=full&fps=12" frameborder="0"></iframe>
     </div>
 </div>
