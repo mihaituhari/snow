@@ -1,5 +1,5 @@
 <div class="webcam">
-    <span>Partia Constantinescu</span>
+    <span>Pârtia Constantinescu</span>
     <div class="box">
         <iframe src="http://82.79.247.31:888/cgi-bin/faststream.jpg?stream=full&fps=12" frameborder="0"></iframe>
     </div>

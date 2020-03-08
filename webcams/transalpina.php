@@ -1,5 +1,5 @@
 <div class="webcam">
-    <span>Plecare Gondola</span>
+    <span>Plecare Gondolă</span>
     <div>
         <a href="#" title="Click pentru actualizare" class="click-refresh">
             <img src="/scripts/image.php?referer=transalpina&url=https://www.trans-alpina.ro/camera/plecare.jpg"/>
