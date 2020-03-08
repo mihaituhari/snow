@@ -34,7 +34,7 @@
     <link rel="canonical" href="https://snow.tuhari.ro/"/>
     <meta name="msapplication-TileColor" content="#547F8E">
     <meta name="msapplication-TileImage" content="/static/images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#547F8E">
 </head>
 <body>
 
