@@ -1,7 +1,7 @@
 <div class="webcam">
     <span>Partia Constantinescu</span>
     <div>
-        <iframe src="http://82.79.247.31:888/cgi-bin/faststream.jpg?stream=full&fps=12" frameborder="0"></iframe>
+        <img src="http://82.79.247.31:888/cgi-bin/faststream.jpg?stream=full&fps=12"/>
     </div>
 </div>
 
