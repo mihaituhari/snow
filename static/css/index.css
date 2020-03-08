@@ -164,11 +164,22 @@ main {
 
 /** Responsive */
 @media (max-width: 1024px) {
+    body {
+        background-position: right 0;
+    }
+
     .weather,
     .webcams {
         width: 100%;
         display: block;
         margin: 0 0 15px 0;
+    }
+
+    .webcams {
+        position: fixed;
+        bottom: 0;
+        left: 1%;
+        width: 98%;
     }
 
     .box {
