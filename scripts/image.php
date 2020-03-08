@@ -2,6 +2,10 @@
 
 require_once __DIR__ . '/init.php';
 
+/*
+ * Proxy images. Avoid referal check.
+ */
+
 /** @var string|null $imageUrl */
 $imageUrl = $_GET['url'] ?? null;
 
