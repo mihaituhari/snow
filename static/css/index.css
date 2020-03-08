@@ -163,6 +163,12 @@ main {
 }
 
 /** Responsive */
+@media (max-width: 1920px) {
+    .weather .box {
+        padding-bottom: 70%;
+    }
+}
+
 @media (max-width: 1024px) {
     body {
         background-position: right 0;
