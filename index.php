@@ -83,6 +83,8 @@
             ?>
         </div>
     </div>
+
+    <div class="footer">collaborate on <a href="https://github.com/mihaituhari/snow" target="_blank">Github</a></div>
 </main>
 
 <script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>

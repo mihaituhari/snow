@@ -51,6 +51,21 @@ main {
     padding: 10px;
 }
 
+.footer {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #557f8f;
+}
+
+.footer a {
+    color: #d87957;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
 /** Tabs */
 .tabset > input[type="radio"] {
     position: absolute;
@@ -77,7 +92,6 @@ main {
     border: 1px solid transparent;
     border-bottom: 0;
     cursor: pointer;
-    font-weight: 600;
 }
 
 .tabset > label::after {
@@ -183,12 +197,17 @@ main {
 
     .webcams {
         position: fixed;
-        bottom: 0;
+        bottom: 15px;
         left: 1%;
         width: 98%;
     }
 
     .box {
         padding-bottom: 80%;
+    }
+
+    .footer {
+        font-size: 0.9em;
+        bottom: 8px;
     }
 }
