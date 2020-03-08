@@ -11,7 +11,7 @@
     <meta content="snow" property="og:title"/>
     <meta content="website" property="og:type"/>
     <meta content="<?php echo baseUrl() ?>" property="og:url"/>
-    <meta content="<?php echo baseUrl() ?>static/images/cover.jpg" property="og:image"/>
+    <meta content="<?php echo baseUrl() ?>static/images/cover-mock.jpg" property="og:image"/>
     <meta content="snow.tuhari.ro" property="og:site_name"/>
 
     <link href="https://fonts.googleapis.com/css?family=Rubik:300" rel="stylesheet">
