@@ -1,0 +1,177 @@
+/** minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+button, input, select, textarea {
+    margin: 0
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+img, embed, iframe, object, audio, video {
+    height: auto;
+    max-width: 100%
+}
+
+/** Custom */
+html {
+    height: 100%;
+}
+
+body {
+    font: 15px/18px "Rubik", Helvetica, sans-serif;
+    color: #333333;
+    font-weight: 300;
+    background: url('/static/images/bg.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+main {
+    padding: 10px;
+}
+
+/** Tabs */
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+}
+
+.tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px 18px 15px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabset > label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: #8d8d8d;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+    color: #557f8f;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+    background: #d87957;
+}
+
+.tabset > input:checked + label {
+    border-color: #cccccc;
+    border-bottom: 1px solid #fafafa;
+    background: rgba(255, 255, 255, 0.3);
+    margin-bottom: -1px;
+    color: #557f8f;
+}
+
+.tab-panel {
+    padding: 15px 0;
+    border-top: 1px solid #cccccc;
+}
+
+.weather,
+.webcams {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    float: left;
+}
+
+.weather {
+    width: 30%;
+    padding: 1%;
+}
+
+.webcams {
+    width: 68%;
+    margin-left: 2%;
+    display: block;
+    padding: 1% 0;
+}
+
+.box {
+    width: 100%;
+    position: relative;
+    padding-bottom: 55%
+}
+
+.box iframe {
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.webcam {
+    display: inline-block;
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}
+
+.webcam img {
+    width: 100%;
+}
+
+
+.webcam span {
+    display: none;
+}
+
+/** Responsive */
+@media (max-width: 1024px) {
+    .weather,
+    .webcams {
+        width: 100%;
+        display: block;
+        margin: 0 0 15px 0;
+    }
+
+    .box {
+        padding-bottom: 80%;
+    }
+}
