@@ -2,7 +2,7 @@
     <span>Gongolă Postăvarul</span>
     <div>
         <a href="#" title="Click pentru actualizare" class="click-refresh">
-            <img src="/scripts/image.php?url=https://live.freecam.ro/live/postavarul-telegondola"/>
+            <img src="/scripts/image.php?referer=poiana-brasov&url=https://live.freecam.ro/live/postavarul-telegondola"/>
         </a>
     </div>
 </div>
@@ -11,7 +11,7 @@
     <span>Drumul Roșu</span>
     <div>
         <a href="#" title="Click pentru actualizare" class="click-refresh">
-            <img src="/scripts/image.php?url=https://live.freecam.ro/live/partia-de-schi-drumul-rosu"/>
+            <img src="/scripts/image.php?referer=poiana-brasov&url=https://live.freecam.ro/live/partia-de-schi-drumul-rosu"/>
         </a>
     </div>
 </div>
