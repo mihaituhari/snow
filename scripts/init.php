@@ -19,11 +19,6 @@ $resorts = [
         'webcams' => 'poiana-brasov',
     ],
     [
-        'name' => 'Predeal',
-        'meteoblue_id' => 'predeal_românia_669704',
-        'webcams' => 'predeal',
-    ],
-    [
         'name' => 'Straja',
         'meteoblue_id' => 'straja_romania_666019',
         'webcams' => 'straja',
@@ -33,6 +28,16 @@ $resorts = [
         'meteoblue_id' => 'transalpina_romania_8236900',
         'webcams' => 'transalpina',
     ],
+];
+
+/**
+ * These are used for fetching the images via proxy request.
+ *
+ * @var array $referers
+ */
+$referers = [
+    'poiana-brasov' => 'https://www.freecam.ro/partii-de-schi/partia-de-schi-poiana-brasov',
+    'transalpina' => 'https://www.trans-alpina.ro/?page_id=343',
 ];
 
 /*
