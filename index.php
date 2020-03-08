@@ -35,6 +35,16 @@
     <meta name="msapplication-TileColor" content="#547F8E">
     <meta name="msapplication-TileImage" content="/static/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#547F8E">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160024319-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160024319-1');
+    </script>
 </head>
 <body>
 
