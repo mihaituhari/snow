@@ -24,6 +24,7 @@ curl_setopt($ch, CURLOPT_URL, $imageUrl);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_REFERER, $referer);
 $image = curl_exec($ch);
+curl_close($ch);
 
 header('Content-type: image/jpeg');
 
