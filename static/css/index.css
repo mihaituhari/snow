@@ -45,6 +45,7 @@ body {
     font-weight: 300;
     background: url('/static/images/bg.jpg') no-repeat 0 0;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
@@ -144,7 +145,7 @@ main {
     width: 68%;
     margin-left: 2%;
     display: block;
-    padding: 1% 0;
+    padding: 0;
 }
 
 .box {
@@ -163,7 +164,7 @@ main {
 .webcam {
     display: inline-block;
     width: 48%;
-    margin: 0 1%;
+    margin: 1%;
     float: left;
 }
 
@@ -196,8 +197,8 @@ main {
     }
 
     .webcams {
-        position: fixed;
-        bottom: 15px;
+        /*position: fixed;*/
+        /*bottom: 15px;*/
         left: 1%;
         width: 98%;
     }
